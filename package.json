@@ -1,0 +1,16 @@
+{
+  "name": "babel-modules-system-source-maps-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "not-working.js",
+  "dependencies": {
+    "babel-core": "^6.3.26",
+    "babel-plugin-transform-es2015-modules-systemjs": "^6.3.13"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
