@@ -3,7 +3,7 @@ var systemModules = require('babel-plugin-transform-es2015-modules-systemjs');
 
 var output = babel.transform('export var p = 5', {
   plugins: [systemModules],
-  sourceMap: true
+  sourceMaps: true
 });
 
 console.log(output.map);
